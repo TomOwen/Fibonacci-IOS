@@ -19,7 +19,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     // Initialize table data
 	NSString *tempString;
-    int i; // used in the "for" loop
+    int i;
     int fcounter = 20; // specifies the number of values to loop through
     int f1 = 1; // seed value 1
     int f2 = 0; // seed value 2
@@ -36,10 +36,6 @@
         [self.tableData addObject:tempString];
         
     }
-    
-    //[self.mytable reloadData];
-    
-    //tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];
 }
 
 - (void)didReceiveMemoryWarning
